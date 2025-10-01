@@ -1,6 +1,5 @@
 import './App.css'
-import StudentName from './component/StudentName'
-import StudentID from './component/StudentID'
+import StudentCard from './components/StudentCard'
 
 function App() {
   return (
@@ -13,8 +12,8 @@ function App() {
       <main className="dashboard-main">
         <div className="cards-container">
           {/* TODO: Import and render StudentCard components here */}
-          <StudentName name = "Yazid" />
-          <StudentID id = "202176430" />
+          <StudentCard name = "Yazid" id = "202176430" dep = "ICS" />
+          <StudentCard name = "Khalid" id = "202312331" dep = "CHE" />
         </div>
       </main>
     </div>
